@@ -4,8 +4,8 @@ Solution for Problem 1 of Set 1 of the Cryptopals Challenges
 (C) Shea Polansky, licensed under GPLv3
 2017-06-24
 
-Usage: ./problem1.py <hexbuffer> <hexbuffer>
-Output: bitwise XOR of each byte in the buffer, hex encoded
+Usage: ./problem2.py <hexbuffer> <hexbuffer>
+Output: pairwise bitwise XOR of each byte in the buffer, hex encoded
 """
 
 import sys, base64, itertools
